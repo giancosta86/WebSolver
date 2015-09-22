@@ -1,0 +1,121 @@
+/*§
+  ===========================================================================
+  WebSolver
+  ===========================================================================
+  Copyright (C) 2015 Gianluca Costa
+  ===========================================================================
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  ===========================================================================
+*/
+
+h1 {
+  margin-bottom: 0.3em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+  color: darkgrey;
+  text-align: center;
+
+  margin-bottom: 3em;
+}
+
+label {
+  font-weight: bold;
+}
+
+
+input {
+  font-family: monospace;
+}
+
+textarea {
+  font-family: monospace;
+  width: 100%;
+}
+
+
+
+#webServiceBox {
+  display: flex;
+}
+
+
+#inputBox {
+  width: 46%;
+  margin: 2%;
+}
+
+#solverBox {
+  margin-bottom: 1em;
+}
+
+#solverLabel {
+  margin-right: 0.5em;
+}
+
+
+#rulesBox {
+  margin-bottom: 1em;
+}
+
+#rulesLabel {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+#rulesArea {
+    height: 20em;
+}
+
+
+#goalLabel {
+  margin-right: 0.5em;
+}
+
+
+#outputBox {
+  width: 46%;
+  margin: 2%;
+}
+
+#outputLabel {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+#outputArea {
+  height: 30em;
+}
+
+
+
+#aboutBox {
+  margin-top: 2em;
+}
+
+.copyrightNotice {
+  font-style: italic;
+}
+
+#copyrightNotice {
+  font-style: italic;
+}
+
+#projectButton {
+  margin-left: 2em;
+  margin-right: 1em;
+}
